@@ -146,7 +146,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 16";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item1
 				{
@@ -159,7 +159,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 17";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item2
 				{
@@ -172,7 +172,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_18";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Bomb Squad 1";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item3
 				{
@@ -185,7 +185,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_13";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 13";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item4
 				{
@@ -198,7 +198,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_6";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 6";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item5
 				{
@@ -211,7 +211,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_11";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 11";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item6
 				{
@@ -224,7 +224,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_7";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 7";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item7
 				{
@@ -237,7 +237,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_12";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 12";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item8
 				{
@@ -250,7 +250,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_14";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 14";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item9
 				{
@@ -264,7 +264,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_19";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Bomb Squad 2";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item10
 				{
@@ -277,7 +277,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_15";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 15";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item11
 				{
@@ -290,7 +290,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_9";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 9";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item12
 				{
@@ -303,7 +303,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_8";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 8";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item13
 				{
@@ -316,7 +316,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 4";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item14
 				{
@@ -329,7 +329,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 2";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item15
 				{
@@ -342,7 +342,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 3";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item16
 				{
@@ -355,7 +355,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_5";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 5";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item17
 				{
@@ -368,7 +368,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_10";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 10";
+					description="Police Force | Whitelisted slot";
 				};
 				class Item18
 				{
@@ -404,7 +404,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_1";
-					description="Civ 1";
+					description="Civilian";
 				};
 			};
 		};
@@ -426,7 +426,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_2";
-					description="Civ 2";
+					description="Civilian";
 				};
 			};
 		};
@@ -448,7 +448,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_3";
-					description="Civ 3";
+					description="Civilian";
 				};
 			};
 		};
@@ -470,7 +470,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_4";
-					description="Civ 4";
+					description="Civilian";
 				};
 			};
 		};
@@ -492,7 +492,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_5";
-					description="Civ 5";
+					description="Civilian";
 				};
 			};
 		};
@@ -514,7 +514,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_6";
-					description="Civ 6";
+					description="Civilian";
 				};
 			};
 		};
@@ -536,7 +536,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_7";
-					description="Civ 7";
+					description="Civilian";
 				};
 			};
 		};
@@ -558,7 +558,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_8";
-					description="Civ 8";
+					description="Civilian";
 				};
 			};
 		};
@@ -580,7 +580,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_9";
-					description="Civ 9";
+					description="Civilian";
 				};
 			};
 		};
@@ -602,7 +602,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_10";
-					description="Civ 10";
+					description="Civilian";
 				};
 			};
 		};
@@ -624,7 +624,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_11";
-					description="Civ 11";
+					description="Civilian";
 				};
 			};
 		};
@@ -646,7 +646,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_12";
-					description="Civ 12";
+					description="Civilian";
 				};
 			};
 		};
@@ -668,7 +668,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_13";
-					description="Civ 13";
+					description="Civilian";
 				};
 			};
 		};
@@ -690,7 +690,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_14";
-					description="Civ 14";
+					description="Civilian";
 				};
 			};
 		};
@@ -712,7 +712,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_15";
-					description="Civ 15";
+					description="Civilian";
 				};
 			};
 		};
@@ -734,7 +734,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_16";
-					description="Civ 16";
+					description="Civilian";
 				};
 			};
 		};
@@ -756,7 +756,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_17";
-					description="Civ 17";
+					description="Civilian";
 				};
 			};
 		};
@@ -778,7 +778,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_18";
-					description="Civ 18";
+					description="Civilian";
 				};
 			};
 		};
@@ -800,7 +800,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_19";
-					description="Civ 19";
+					description="Civilian";
 				};
 			};
 		};
@@ -822,7 +822,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_20";
-					description="Civ 20";
+					description="Civilian";
 				};
 			};
 		};
@@ -844,7 +844,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_21";
-					description="Civ 21";
+					description="Civilian";
 				};
 			};
 		};
@@ -866,7 +866,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_22";
-					description="Civ 22";
+					description="Civilian";
 				};
 			};
 		};
@@ -888,7 +888,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_23";
-					description="Civ 23";
+					description="Civilian";
 				};
 			};
 		};
@@ -910,7 +910,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_24";
-					description="Civ 24";
+					description="Civilian";
 				};
 			};
 		};
@@ -932,7 +932,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_25";
-					description="Civ 25";
+					description="Civilian";
 				};
 			};
 		};
@@ -954,7 +954,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_26";
-					description="Civ 26";
+					description="Civilian";
 				};
 			};
 		};
@@ -976,7 +976,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_27";
-					description="Civ 27";
+					description="Civilian";
 				};
 			};
 		};
@@ -998,7 +998,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_28";
-					description="Civ 28";
+					description="Civilian";
 				};
 			};
 		};
@@ -1020,7 +1020,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_29";
-					description="Civ 29";
+					description="Civilian";
 				};
 			};
 		};
@@ -1042,7 +1042,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_30";
-					description="Civ 30";
+					description="Civilian";
 				};
 			};
 		};
@@ -1064,7 +1064,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_31";
-					description="Civ 31";
+					description="Civilian";
 				};
 			};
 		};
@@ -1086,7 +1086,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_32";
-					description="Civ 32";
+					description="Civilian";
 				};
 			};
 		};
@@ -1108,7 +1108,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_33";
-					description="Civ 33";
+					description="Civilian";
 				};
 			};
 		};
@@ -1130,7 +1130,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_34";
-					description="Civ 34";
+					description="Civilian";
 				};
 			};
 		};
@@ -1152,7 +1152,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_35";
-					description="Civ 35";
+					description="Civilian";
 				};
 			};
 		};
@@ -1174,7 +1174,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_36";
-					description="Civ 36";
+					description="Civilian";
 				};
 			};
 		};
@@ -1196,7 +1196,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_37";
-					description="Civ 37";
+					description="Civilian";
 				};
 			};
 		};
@@ -1218,7 +1218,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_38";
-					description="Civ 38";
+					description="Civilian";
 				};
 			};
 		};
@@ -1240,7 +1240,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_39";
-					description="Civ 39";
+					description="Civilian";
 				};
 			};
 		};
@@ -1262,7 +1262,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_40";
-					description="Civ 40";
+					description="Civilian";
 				};
 			};
 		};
@@ -1284,7 +1284,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_41";
-					description="Civ 41";
+					description="Civilian";
 				};
 			};
 		};
@@ -1306,7 +1306,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_42";
-					description="Civ 42";
+					description="Civilian";
 				};
 			};
 		};
@@ -1328,7 +1328,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_43";
-					description="Civ 43";
+					description="Civilian";
 				};
 			};
 		};
@@ -1350,7 +1350,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_44";
-					description="Civ 44";
+					description="Civilian";
 				};
 			};
 		};
@@ -1372,7 +1372,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_45";
-					description="Civ 45";
+					description="Civilian";
 				};
 			};
 		};
@@ -1394,7 +1394,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_46";
-					description="Civ 46";
+					description="Civilian";
 				};
 			};
 		};
@@ -1416,7 +1416,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_47";
-					description="Civ 47";
+					description="Civilian";
 				};
 			};
 		};
@@ -1438,7 +1438,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_48";
-					description="Civ 48";
+					description="Civilian";
 				};
 			};
 		};
@@ -1460,7 +1460,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_49";
-					description="Civ 49";
+					description="Civilian";
 				};
 			};
 		};
@@ -1482,7 +1482,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_50";
-					description="Civ 50";
+					description="Civilian";
 				};
 			};
 		};
@@ -1504,7 +1504,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_51";
-					description="Civ 51";
+					description="Civilian";
 				};
 			};
 		};
@@ -1526,7 +1526,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_52";
-					description="Civ 52";
+					description="Civilian";
 				};
 			};
 		};
@@ -1548,7 +1548,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_53";
-					description="Civ 53";
+					description="Civilian";
 				};
 			};
 		};
@@ -1570,7 +1570,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_54";
-					description="Civ 54";
+					description="Civilian";
 				};
 			};
 		};
@@ -1592,7 +1592,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_55";
-					description="Civ 55";
+					description="Civilian";
 				};
 			};
 		};
@@ -1614,7 +1614,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_56";
-					description="Civ 56";
+					description="Civilian";
 				};
 			};
 		};
@@ -1636,7 +1636,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_57";
-					description="Civ 57";
+					description="Civilian";
 				};
 			};
 		};
@@ -1658,7 +1658,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_58";
-					description="Civ 58";
+					description="Civilian";
 				};
 			};
 		};
@@ -1680,7 +1680,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_59";
-					description="Civ 59";
+					description="Civilian";
 				};
 			};
 		};
@@ -1702,7 +1702,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_60";
-					description="Civ 60";
+					description="Civilian";
 				};
 			};
 		};
@@ -1724,7 +1724,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_61";
-					description="Civ 61";
+					description="Civilian";
 				};
 			};
 		};
@@ -1746,7 +1746,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_62";
-					description="Civ 62";
+					description="Civilian";
 				};
 			};
 		};
@@ -1768,7 +1768,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_63";
-					description="Civ 63";
+					description="Civilian";
 				};
 			};
 		};
@@ -1790,7 +1790,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_64";
-					description="Civ 64";
+					description="Civilian";
 				};
 			};
 		};
@@ -1812,7 +1812,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_65";
-					description="Civ 65";
+					description="Civilian";
 				};
 			};
 		};
@@ -1834,7 +1834,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_70";
-					description="Civ 70";
+					description="Civilian";
 				};
 			};
 		};
@@ -1856,7 +1856,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_69";
-					description="Civ 69";
+					description="Civilian";
 				};
 			};
 		};
@@ -1878,7 +1878,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_68";
-					description="Civ 68";
+					description="Civilian";
 				};
 			};
 		};
@@ -1900,7 +1900,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_67";
-					description="Civ 67";
+					description="Civilian";
 				};
 			};
 		};
@@ -1922,7 +1922,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_66";
-					description="Civ 66";
+					description="Civilian";
 				};
 			};
 		};
@@ -1944,7 +1944,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_75";
-					description="Civ 75";
+					description="Civilian";
 				};
 			};
 		};
@@ -1966,7 +1966,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_74";
-					description="Civ 74";
+					description="Civilian";
 				};
 			};
 		};
@@ -1988,7 +1988,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_73";
-					description="Civ 73";
+					description="Civilian";
 				};
 			};
 		};
@@ -2010,7 +2010,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_72";
-					description="Civ 72";
+					description="Civilian";
 				};
 			};
 		};
@@ -2032,7 +2032,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_71";
-					description="Civ 71";
+					description="Civilian";
 				};
 			};
 		};
