@@ -50,7 +50,7 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["textures\police_offroad.paa","cop"]
+			["textures\police_offroad.jpg","cop"]
 		];
 	};
 	
@@ -78,7 +78,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
-			["textures\police_suv.paa","cop"]
+			["textures\police_suv.jpg","cop"]
 		];
 	};
 	
@@ -156,7 +156,7 @@ switch (_vehicle) do
 		[
 			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
-			["textures\swat_hunter_1.paa","cop","textures\swat_hunter_2.paa"]
+			["textures\cop\cop_hunter.jpg","cop","textures\cop\swat_hunter_2.jpg"]
 		];
 	};
 	

@@ -61,7 +61,7 @@ switch (_var) do
 	case "life_inv_defusekit": {(localize "STR_Item_DefuseKit")};
 	case "life_inv_storagesmall": {(localize "STR_Item_StorageBS")};
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
-	case "life_inv_zipties": {"zipties"};
+	case "life_inv_zipties": {(localize "STR_Item_ZipTies")};
 	case "life_inv_kidney": {"Black Market Kidney"};
 	
 	//License Block

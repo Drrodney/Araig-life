@@ -3547,6 +3547,14 @@
 			<Italian>Contenitore grande</Italian>
 			<Portuguese>Caixa Grande</Portuguese>
 		</Key>
+		<Key ID="STR_Item_ZipTies">
+			<Original>Ziptie</Original>
+			<English>Ziptie</English>
+			<German>Ziptie</German>
+			<French>Ziptie</French>
+			<Italian>Ziptie</Italian>
+			<Portuguese>Ziptie</Portuguese>
+		</Key>
 		<Key ID="STR_Item_CocaineU">
 			<Original>Unprocessed Cocaine</Original>
 			<English>Unprocessed Cocaine</English>
