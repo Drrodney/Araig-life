@@ -58,7 +58,7 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
 	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == civilian) then {
-	[_curTarget] call life_fnc_civInteractionMenu;
+		[_curTarget] call life_fnc_civInteractionMenu;
 };
 	
 } else {
