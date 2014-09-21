@@ -51,7 +51,7 @@ _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDi
 //Set Escort Button
 if((_curTarget getVariable["Escorting",false])) then {
 	_Btn2 ctrlSetText localize "STR_pInAct_StopEscort";
-	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_stopEscorting; [life_pInact_curTarget] call life_fnc_civInteractionMenu;";
+	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_stopEscorting; [life_pInact_curTarget] call life_fnc_copInteractionMenu;";
 } else {
 	_Btn2 ctrlSetText localize "STR_pInAct_Escort";
 	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
