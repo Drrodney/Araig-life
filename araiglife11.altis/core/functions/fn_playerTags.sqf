@@ -44,7 +44,7 @@ _units = _units - [player];
 					case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
 					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
 					case 6: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
-					case 7: {""};
+					case 7: {"a3\ui_f\data\gui\cfg\Ranks\colonel_gs"};
 					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
 					default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
 					},_x getVariable ["realname",name _x]]};
