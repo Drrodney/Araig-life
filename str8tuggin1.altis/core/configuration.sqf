@@ -160,7 +160,6 @@ life_inv_items =
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
 	"life_inv_storagebig",
-	"life_inv_zipties",
 	"life_inv_kidney"
 ];
 
@@ -244,7 +243,6 @@ sell_array =
 	["spikeStrip",1200],
 	["cement",1950],
 	["goldbar",95000],
-	["zipties",2],
 	["kidney",50000]
 ];
 __CONST__(sell_array,sell_array);
@@ -276,7 +274,6 @@ buy_array =
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000],
-	["zipties",100],
 	["kidney",75000]
 ];
 __CONST__(buy_array,buy_array);

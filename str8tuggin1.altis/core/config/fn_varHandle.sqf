@@ -65,7 +65,6 @@ switch (_mode) do
 			case "defusekit": {"life_inv_defusekit"};
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
-			case "zipties": {"life_inv_zipties"};
 			case "kidney": {"life_inv_kidney"};
 		};
 	};
@@ -123,7 +122,6 @@ switch (_mode) do
 			case "life_inv_defusekit": {"defusekit"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
-			case "life_inv_zipties": {"zipties"};
 			case "life_inv_kidney": {"kidney"};
 		};
 	};

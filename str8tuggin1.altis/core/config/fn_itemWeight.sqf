@@ -56,7 +56,6 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
-	case "zipties": {2};
 	case "kidney": {15};//15 is the weight
 	default {1};
 };
