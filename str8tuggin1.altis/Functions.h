@@ -262,6 +262,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class hasOrgan {};
+		class handleDowned {};
 	};
 	
 	class Vehicle

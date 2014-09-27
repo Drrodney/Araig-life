@@ -81,6 +81,7 @@ __CONST__(life_impound_car,1500);
 __CONST__(life_impound_boat,2000);
 __CONST__(life_impound_air,3000);
 life_istazed = false;
+life_isdowned = false;
 life_my_gang = ObjNull;
 
 life_vehicles = [];
