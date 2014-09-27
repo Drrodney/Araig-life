@@ -94,14 +94,35 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_AssaultPack_cbr",nil,2500],
-			["B_Kitbag_mcamo",nil,4500],
-			["B_TacticalPack_oli",nil,3500],
-			["B_FieldPack_ocamo",nil,3000],
-			["B_Bergen_sgg",nil,4500],
-			["B_Kitbag_cbr",nil,4500],
-			["B_Carryall_oli",nil,5000],
-			["B_Carryall_khk",nil,5000]
+			// All backpacks
+			["B_OutdoorPack_blk",nil,1000],
+			["B_OutdoorPack_tan",nil,1000],
+			["B_OutdoorPack_blu",nil,1000],
+			["B_HuntingBackpack",nil,1000],
+			["B_AssaultPack_khk",nil,1500],
+			["B_AssaultPack_dgtl",nil,1500],
+			["B_AssaultPack_rgr",nil,1500],
+			["B_AssaultPack_sgg",nil,1500],
+			["B_AssaultPack_blk",nil,1500],
+			["B_AssaultPack_cbr",nil,1500],
+			["B_AssaultPack_mcamo",nil,2000],
+			["B_Kitbag_mcamo",nil,2500],
+			["B_Kitbag_sgg",nil,2500],
+			["B_Kitbag_cbr",nil,2500],
+			["B_FieldPack_blk",nil,3000],
+			["B_FieldPack_ocamo",nil,3500],
+			["B_FieldPack_oucamo",nil,3500],
+			["B_FieldPack_cbr",nil,3500],
+			["B_Bergen_sgg",nil,4000],
+			["B_Bergen_mcamo",nil,4000],
+			["B_Bergen_rgr",nil,4000],
+			["B_Bergen_blk",nil,4000],
+			["B_Carryall_ocamo",nil,4500],
+			["B_Carryall_oucamo",nil,4500],
+			["B_Carryall_mcamo",nil,4500],
+			["B_Carryall_oli",nil,4500],
+			["B_Carryall_khk",nil,4500],
+			["B_Carryall_cbr",nil,4500]
 		];
 	};
 };

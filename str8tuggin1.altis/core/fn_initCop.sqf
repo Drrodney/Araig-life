@@ -37,4 +37,13 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 			waitUntil {uniform player != "U_Rangemaster"};
 		};
 };
+[] spawn
+{
+	while {true} do
+		{
+			waitUntil {uniform player == "U_B_CombatUniform_mcam"};
+			player setObjectTextureGlobal [0,"textures\swat_shirt.paa"];
+			waitUntil {uniform player != "U_B_CombatUniform_mcam"};
+		};
+};
 [] execVM "scripts\fusionsmenu\admin\activate.sqf";

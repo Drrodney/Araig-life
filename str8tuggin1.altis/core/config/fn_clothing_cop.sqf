@@ -31,6 +31,10 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["U_NikosAgedBody",nil,500]];
 		};
+		if(!license_cop_swat) then
+		{
+			_ret set[count _ret,["U_B_CombatUniform_mcam",nil,1000]];
+		};
 	};
 	
 	//Hats
@@ -85,11 +89,34 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["B_Kitbag_cbr",nil,800],
-			["B_FieldPack_cbr",nil,500],
-			["B_AssaultPack_cbr",nil,700],
-			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500]
+			["B_OutdoorPack_blk",nil,2500],
+			["B_OutdoorPack_tan",nil,4500],
+			["B_OutdoorPack_blu",nil,3500],
+			["B_HuntingBackpack",nil,3000],
+			["B_AssaultPack_khk",nil,4500],
+			["B_AssaultPack_dgtl",nil,4500],
+			["B_AssaultPack_rgr",nil,5000],
+			["B_AssaultPack_sgg",nil,5000],
+			["B_AssaultPack_blk",nil,2500],
+			["B_AssaultPack_cbr",nil,4500],
+			["B_AssaultPack_mcamo",nil,3500],
+			["B_Kitbag_mcamo",nil,3000],
+			["B_Kitbag_sgg",nil,4500],
+			["B_Kitbag_cbr",nil,4500],
+			["B_FieldPack_blk",nil,5000],
+			["B_FieldPack_ocamo",nil,5000],
+			["B_FieldPack_oucamo",nil,2500],
+			["B_FieldPack_cbr",nil,4500],
+			["B_Bergen_sgg",nil,3500],
+			["B_Bergen_mcamo",nil,3000],
+			["B_Bergen_rgr",nil,4500],
+			["B_Bergen_blk",nil,4500],
+			["B_Carryall_ocamo",nil,5000],
+			["B_Carryall_oucamo",nil,5000],
+			["B_Carryall_mcamo",nil,2500],
+			["B_Carryall_oli",nil,4500],
+			["B_Carryall_khk",nil,3500],
+			["B_Carryall_cbr",nil,3000]
 		];
 	};
 };

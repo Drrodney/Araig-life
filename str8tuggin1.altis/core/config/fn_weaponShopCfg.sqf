@@ -41,9 +41,7 @@ switch(_shop) do
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SmokeShell",nil,1700],
-						["Chemlight_Blue",nil,50],
-						["tf_anprc152",nil,150],
-						["tf_rt1523g",nil,5000]
+						["Chemlight_Blue",nil,50]
 					]
 				];
 			};
@@ -64,9 +62,7 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
 						["NVGoggles",nil,1200],
-						["B_FieldPack_ocamo",nil,3000],
-						["tf_anprc152",nil,150],
-						["tf_rt1523g",nil,5000]
+						["B_FieldPack_ocamo",nil,3000]
 					]
 				];
 			};
@@ -90,9 +86,7 @@ switch(_shop) do
 						["optic_Holosight",nil,200],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
-						["30Rnd_9x21_Mag",nil,250],
-						["tf_anprc152",nil,150],
-						["tf_rt1523g",nil,5000]
+						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
 			};
@@ -129,9 +123,7 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
 						["30Rnd_45ACP_Mag_SMG_01",nil,30],
-						["9Rnd_45ACP_Mag",nil,30],
-						["tf_anprc152",nil,150],
-						["tf_rt1523g",nil,5000]
+						["9Rnd_45ACP_Mag",nil,30]
 					]
 				];
 			};
@@ -165,9 +157,37 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
 						["30Rnd_65x39_caseless_green",nil,275],
-						["tf_pnr1000a",nil,300],
-						["tf_fadak",nil,3000],
-						["tf_mr3000",nil,10000]
+						["tf_pnr1000a",nil,300]
+					]
+				];
+			};
+		};
+	};
+	
+	case "swat":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_cop_swat): {"You do not have a S.W.A.T license !"};
+			default
+			{
+				["S.W.A.T Shop",
+					[
+						// Weapons
+						["arifle_MX_Black_F",nil,10000],
+						["arifle_MXC_Black_F",nil,12500],
+						["arifle_MXM_Black_F",nil,15000],
+						// Attachments
+						["optic_Aco",nil,1000],
+						["optic_Holosight",nil,1000],
+						["optic_MRCO",nil,1000],
+						// Silencer / Laser / Flashlight
+						["acc_flashlight",nil,1000],
+						["acc_pointer_IR",nil,1000],
+						["muzzle_snds_H",nil,1000],
+						// Ammunition
+						["30Rnd_65x39_caseless_mag",nil,500]
 					]
 				];
 			};
@@ -194,10 +214,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,25],
 						["9Rnd_45ACP_Mag",nil,45],
 						["6Rnd_45ACP_Cylinder",nil,50],
-						["11Rnd_45ACP_Mag",nil,45],
-						["tf_anprc154",nil,200],
-						["tf_anprc148jem",nil,2000],
-						["tf_anprc155",nil,7000]
+						["11Rnd_45ACP_Mag",nil,45]
 					]
 				];
 			};
