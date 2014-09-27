@@ -74,7 +74,7 @@ player createDiarySubject ["special","Special Licenses"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Bannable Offenses", 
+			"Ban-able Offenses", 
 				"
 				Consider this your one and only warning.<br/><br/>
 				
@@ -95,7 +95,7 @@ player createDiarySubject ["special","Special Licenses"];
 				1. Civilians can be arrested for looking in cops' backpacks/vehicles. Constantly doing this will result in your removal from the server.<br/>
 				2. Civilians can be arrested for following cops in game in order to give away their position.<br/>
 				3. Civilians or Rebels who take up arms to kill cops in town or elsewhere for no RP reason will be considered RDMing. See RDMing section.<br/>
-				4. Following and or harassing cops for long periods of time will be considered griefing and/or spamming, and will result in your removal from the server.<br/>
+				4. Following and or harassing cops for long periods of time will be considered griefing and/or spamming, and will result in your removal from the server. This is to include standing out side of a police base and trolling, you will be kicked then day banned if you continue to do so.<br/><br/>
 				5. Actively blocking cops from doing their duties can lead to your arrest. Constantly doing this will result in your removal from the server.<br/><br/>
 				"
 		]
@@ -150,10 +150,10 @@ player createDiarySubject ["special","Special Licenses"];
 				"
 				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
 				
-				1. Side Chat may not be used to play music or otherwise micspam.<br/>
+				1. Side Chat VON may not be used.<br/>
 				2. Spamming any chat channel will result in your removal.<br/>
 				4. Teamspeak channels are split up into areas for a reason. Cops must be in the cop channels at all times.<br/>
-				5. Civilians cannot be in any cop channels on teamspeak in order to gather information on their location or movements. Civs caught doing this will be removed the channel. Repeat offenders can be kicked or banned from both the game and teamspeak.<br/><br/>
+				5. Civilians cannot be in any cop channels on teamspeak in order to gather information on their location or movements. Civs caught doing this will be removed the channel. Repeat offenders can be kicked or banned from both the game and teamspeak. The only exception to this rule is bounty hunters.<br/><br/>
 				"
 		]
 	];
@@ -504,7 +504,7 @@ player createDiarySubject ["special","Special Licenses"];
 				"
 				A civilian in control of the following prohibited vehicles is subject to the consequences defined in the unauthorized control of a prohibited vehicle law.<br/><br/>
 
-				1. Ifrit<br/>
+				1. Strider<br/>
 				2. Speedboat<br/>
 				3. Hunter<br/>
 				4. Police Offroad<br/>

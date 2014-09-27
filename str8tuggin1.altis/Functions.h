@@ -116,6 +116,7 @@ class Life_Client_Core
 		class captureHideout {};
 		class gather {};
 		class takeOrgans {};
+		class robShops {};
 	};
 	
 	class Housing
