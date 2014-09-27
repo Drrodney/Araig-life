@@ -32,6 +32,7 @@ switch(_shop) do
 						["hgun_P07_snds_F","Stun Pistol",2000],
 						["hgun_P07_F",nil,500],
 						["HandGrenade_Stone","Flashbang",700],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -86,6 +87,7 @@ switch(_shop) do
 						["optic_Holosight",nil,200],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
@@ -119,6 +121,7 @@ switch(_shop) do
 						["optic_LRPS",nil,700],
 						["muzzle_snds_H",nil,750],
 						["30Rnd_65x39_caseless_mag",nil,35],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["30Rnd_9x21_Mag",nil,30],
 						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
@@ -156,8 +159,7 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275],
-						["tf_pnr1000a",nil,300]
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
@@ -187,7 +189,8 @@ switch(_shop) do
 						["acc_pointer_IR",nil,1000],
 						["muzzle_snds_H",nil,1000],
 						// Ammunition
-						["30Rnd_65x39_caseless_mag",nil,500]
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
+						["30Rnd_65x39_caseless_mag",nil,30]
 					]
 				];
 			};
