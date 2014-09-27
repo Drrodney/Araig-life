@@ -148,7 +148,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Police Force | Whitelisted slot";
+					description="Police Force | Whitelisted slot | Admin on duty";
 				};
 				class Item1
 				{
@@ -384,7 +384,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 1";
+					description="Police Force | Whitelisted slot";
 				};
 			};
 		};
