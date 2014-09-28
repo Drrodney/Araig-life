@@ -44,6 +44,7 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["H_HelmetB_plain_mcamo",nil,75]];
 			_ret set[count _ret,["H_Cap_blk",nil,120]];
+			_ret set[count _ret,["H_HelmetB",nil,200]];
 		};
 		
 		if(__GETC__(life_coplevel) > 2) then
@@ -78,10 +79,15 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["V_TacVest_blk_POLICE",nil,1500]];
 		};
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_ret set[count _ret, ["V_PlateCarrier1_blk",nil,1000]];
+		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["V_TacVestIR_blk",nil,1500]];
-		}
+			_ret set[count _ret,["V_Chestrig_blk",nil,1000]];
+		};
 	};
 	
 	//Backpacks
