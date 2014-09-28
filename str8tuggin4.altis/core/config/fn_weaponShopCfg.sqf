@@ -32,7 +32,6 @@ switch(_shop) do
 						["hgun_P07_snds_F","Stun Pistol",2000],
 						["hgun_P07_F",nil,500],
 						["HandGrenade_Stone","Flashbang",700],
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -87,7 +86,6 @@ switch(_shop) do
 						["optic_Holosight",nil,200],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
@@ -116,14 +114,11 @@ switch(_shop) do
 						["arifle_MXC_Black_F",nil,2000],
 						["arifle_MX_Black_F",nil,2000],
 						["arifle_MX_F",nil,2000],
-						["arifle_MXM_Black_F",nil,3000],
 						["optic_Arco",nil,450],
 						["optic_MRCO",nil,500],
-						["optic_DMS","nil,200],
 						["optic_LRPS",nil,700],
 						["muzzle_snds_H",nil,750],
 						["30Rnd_65x39_caseless_mag",nil,35],
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
 						["30Rnd_9x21_Mag",nil,30],
 						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
@@ -150,7 +145,6 @@ switch(_shop) do
 						["arifle_Mk20C_plain_F",nil,2500],
 						["arifle_Katiba_C_F",nil,30000],
 						["srifle_DMR_01_F",nil,50000],
-						["arifle_SDAR_F",nil,10000],
 						["hgun_PDW2000_F",nil,20000],
 						["optic_ACO_grn",nil,3500],
 						["optic_Holosight",nil,3600],
@@ -161,13 +155,43 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275]
+						["30Rnd_65x39_caseless_green",nil,275],
+						["tf_pnr1000a",nil,300]
 					]
 				];
 			};
 		};
 	};
 	
+	case "cop_swat":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a S.W.A.T !"};
+			case (!license_cop_swat): {"You do not have a S.W.A.T license !"};
+			default
+			{
+				["S.W.A.T Shop",
+					[
+						// Weapons
+						["arifle_MX_Black_F",nil,10000],
+						["arifle_MXC_Black_F",nil,12500],
+						["arifle_MXM_Black_F",nil,15000],
+						// Attachments
+						["optic_Aco",nil,1000],
+						["optic_Holosight",nil,1000],
+						["optic_MRCO",nil,1000],
+						// Silencer / Laser / Flashlight
+						["acc_flashlight",nil,1000],
+						["acc_pointer_IR",nil,1000],
+						["muzzle_snds_H",nil,1000],
+						// Ammunition
+						["30Rnd_65x39_caseless_mag",nil,500]
+					]
+				];
+			};
+		};
+	};
 	
 	case "gun":
 	{
