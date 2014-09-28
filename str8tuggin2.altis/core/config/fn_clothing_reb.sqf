@@ -19,9 +19,12 @@ switch (_filter) do
 	{
 		[
 			["U_IG_Guerilla1_1",nil,5000],
-			["U_I_G_Story_Protagonist_F",nil,7500],
 			["U_I_G_resistanceLeader_F",nil,11500],
 			["U_O_SpecopsUniform_ocamo",nil,17500],
+			["U_O_CombatUniform_oucamo",nil,18000],
+			["U_I_CombatUniform_shortsleeve",nil,15000],
+			["U_B_CTRG_1",nil,16750],
+			["U_B_CTRG_2",nil,17000],
 			["U_O_PilotCoveralls",nil,15610],
 			["U_IG_leader","Guerilla Leader",15340],
 			["U_O_GhillieSuit",nil,50000]
