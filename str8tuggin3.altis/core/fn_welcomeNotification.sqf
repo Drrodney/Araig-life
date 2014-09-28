@@ -13,4 +13,3 @@ format["Welcome %1, to Asylumist Gaming RPG !",profileName] hintC
 	"Random VMD/RDM is a bannable offence !",
 	"We have active admins online, watch your back !"
 ];
-	
