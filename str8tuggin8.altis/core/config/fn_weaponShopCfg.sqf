@@ -40,6 +40,7 @@ switch(_shop) do
 						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["SmokeShell",nil,1700],
 						["Chemlight_Blue",nil,50]
 					]
@@ -86,8 +87,8 @@ switch(_shop) do
 						["optic_Holosight",nil,200],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
-						["30Rnd_9x21_Mag",nil,250]
+						["30Rnd_9x21_Mag",nil,250],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30]
 					]
 				];
 			};
@@ -120,12 +121,12 @@ switch(_shop) do
 						["optic_LRPS",nil,700],
 						["muzzle_snds_H",nil,750],
 						["30Rnd_65x39_caseless_mag",nil,35],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["30Rnd_9x21_Mag",nil,30],
 						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
 						["30Rnd_45ACP_Mag_SMG_01",nil,30],
 						["9Rnd_45ACP_Mag",nil,30]
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
 					]
 				];
 			};
@@ -156,8 +157,8 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
-						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275]
+						["30Rnd_65x39_caseless_green",nil,150],
+						["10Rnd_762x51_Mag",nil,500]
 					]
 				];
 			};
@@ -175,9 +176,9 @@ switch(_shop) do
 				["S.W.A.T Shop",
 					[
 						// Weapons
-						["arifle_MX_Black_F",nil,10000],
-						["arifle_MXC_Black_F",nil,12500],
-						["arifle_MXM_Black_F",nil,15000],
+						["arifle_MX_Black_F",nil,1000],
+						["arifle_MXC_Black_F",nil,1250],
+						["arifle_MXM_Black_F",nil,1500],
 						// Attachments
 						["optic_Aco",nil,1000],
 						["optic_Holosight",nil,1000],
@@ -189,8 +190,8 @@ switch(_shop) do
 						["acc_pointer_IR",nil,1000],
 						["muzzle_snds_H",nil,1000],
 						// Ammunition
-						["30Rnd_65x39_caseless_mag",nil,500]
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
+						["30Rnd_65x39_caseless_mag",nil,30],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30]
 					]
 				];
 			};
