@@ -313,6 +313,27 @@ class Life_Client_Core
 		class seizePlayerWeaponAction {};
 	};
 	
+	class Lighting
+	{
+		file = "core\lighting";		
+		class police_lights_controller {};		
+		class police_lights_master {};
+		class police_aux_lights_controller {};
+		class police_aux_lights_master {};
+		class ems_lights_controller {};		
+		class ems_lights_master {};
+		class ems_aux_lights_controller {};
+		class ems_aux_lights_master {};
+		class hazard_lights_controller {};
+		class hazard_lights_master {};
+		class turnSignal_left_controller {};
+		class turnSignal_left_master {};
+		class turnSignal_right_controller {};
+		class turnSignal_right_master {};
+		class hideaway_strobe_controller {};
+		class hideaway_strobe_master {};
+	};
+	
 	class Gangs
 	{
 		file = "core\gangs";

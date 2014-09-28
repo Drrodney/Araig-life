@@ -10,10 +10,15 @@ if(!isDedicated) then { X_Client = true;};
 enableSaving[false,false];
 
 life_versionInfo = "Altis Life RPG v3.1.4.5";
-[] execVM "briefing.sqf"; //Load Briefing
+[] execVM "briefing.sqf";
 [] execVM "KRON_Strings.sqf";
 [] execVM "scripts\fn_statusBar.sqf";
 [] execVM "core\fn_antiCheat.sqf";
+[] execVM "anticheat.sqf";
+[] execVM "scripts\mod_cruiseControl.sqf";
+[] execVM "scripts\noGlobal.sqf";
+[] execVM "scripts\nosidechat.sqf";
+[] execVM "scripts\messages.sqf";
 
 StartProgress = true;
 

@@ -146,25 +146,117 @@ switch (_code) do
 			};
 		};
 	};
-	//L Key?
+	
+	// L Key (Light System - Shift+L = Main Lights, Crtl+L = Aux Lights, Ctrl+Shift+L = Strobes, Alt+L = Hazard Lights)
 	case 38: 
 	{
-		//If cop run checks for turning lights on.
-		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F"]) then {
-				if(!isNil {vehicle player getVariable "lights"}) then {
-					if(playerSide == west) then {
-						[vehicle player] call life_fnc_sirenLights;
-					} else {
-						[vehicle player] call life_fnc_medicSirenLights;
-					};
-					_handled = true;
-				};
+	// Cop Main Lights = Shift+L
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{
+			if(_shift && playerSide == west) then 
+			{
+				[vehicle player] call life_fnc_police_lights_controller;
+				_handled = true;			
 			};
 		};
+
+	// Main Lights EMS = Shift+L
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{
+			if(_shift && playerSide == independent) then 
+			{
+				[vehicle player] call life_fnc_ems_lights_controller;
+				_handled = true;			
+			};
+		};		
+
+	// Cop Aux Lights = Ctrl+L	
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{
+			if(_ctrlKey && playerSide == west) then 
+			{			
+				[vehicle player] call life_fnc_police_aux_lights_controller;
+				_handled = true;
+			};	
+		};
+
+	// EMS Aux Lights = Ctrl+L	
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{
+			if(_ctrlKey && playerSide == independent) then 
+			{			
+				[vehicle player] call life_fnc_ems_aux_lights_controller;
+				_handled = true;
+			};	
+		};	
+
+	// EMS & Cop Strobes
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{	
+			if(_alt && playerSide != civilian) then 
+			{	
+				[vehicle player] call life_fnc_hideaway_strobe_controller;
+				_handled = true;
+			};
+		};		
+
+	// Hazard Lights = Alt+L
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{	
+			if(_alt) then 
+			{	
+				[vehicle player] call life_fnc_hazard_lights_controller;
+				_handled = true;
+			};
+		};	
 		
-		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
+	// Radar Gun = L
+		if(vehicle player != player && ((driver vehicle player) == player)) then
+		{
+			if(!_alt && !_ctrlKey && !_shift && playerSide == west) then 
+			{
+				[] call life_fnc_radar;
+			};
+		};	
 	};
+	
+    // Turn Signals
+    // Q Key (Left Turn Signal)
+	case 16:
+	{
+		if(vehicle player != player && ((driver vehicle player) == player) && !((vehicle player) isKindOf "Air") && !((vehicle player) isKindOf "Sea")) then
+		//if(vehicle player != player && alive vehicle player) then
+			{	
+				if(!_alt && !_ctrlKey && !_shift) then 
+					{	
+						[vehicle player] call life_fnc_turnSignal_left_controller;
+						_handled = true;
+					};
+			};
+	};		
+	
+    // E Key (Right Turn Signal)
+	case 18:
+	{	
+		if(vehicle player != player && ((driver vehicle player) == player) && !((vehicle player) isKindOf "Air") && !((vehicle player) isKindOf "Sea")) then
+		//if(vehicle player != player && alive vehicle player) then
+			{	
+				if(!_alt && !_ctrlKey && !_shift) then 
+					{	
+						[vehicle player] call life_fnc_turnSignal_right_controller;
+						_handled = true;
+					};
+			};
+	};
+	
+	// O, police gate opener
+    case 24:
+	{
+		if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player)) then {
+			[] call life_fnc_copOpener;
+		};
+	};
+	
 	//Y Player Menu
 	case 21:
 	{
