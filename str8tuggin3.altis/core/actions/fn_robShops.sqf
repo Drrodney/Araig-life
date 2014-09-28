@@ -28,7 +28,7 @@ _kassa = 10000 + round(random 10000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
-if(_chance >= 85) then { hint "The cashier hit the silent alarm, police has been alerted!"; [[1,format["ALARM! - Gasstation: %1 is being robbed!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 85) then { hint "The cashier hit the silent alarm, police have been alerted!"; [[1,format["ALARM! - Robbery in progress at: %1", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 _cops = (west countSide playableUnits);
 if(_cops < 2) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "There isnt enough Police to rob gas station!";};
@@ -52,7 +52,7 @@ _pgText ctrlSetText format["Robbery in Progress, stay close (10m) (%1%2)...",rou
 _Pos = position player; // by ehno: get player pos
 				                _marker = createMarker ["Marker200", _Pos]; //by ehno: Place a Maker on the map
 				                "Marker200" setMarkerColor "ColorRed";
-				                "Marker200" setMarkerText "!ATTENTION! robbery !ATTENTION!";
+				                "Marker200" setMarkerText "!ATTENTION! Robbery !ATTENTION!";
 				                "Marker200" setMarkerType "mil_warning";			
 if(_cP >= 1) exitWith {};
 if(_robber distance _shop > 10.5) exitWith { };
