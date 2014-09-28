@@ -168,36 +168,6 @@ switch(_shop) do
 		};
 	};
 	
-	case "swat":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_cop_swat): {"You do not have a S.W.A.T license !"};
-			default
-			{
-				["S.W.A.T Shop",
-					[
-						// Weapons
-						["arifle_MX_Black_F",nil,10000],
-						["arifle_MXC_Black_F",nil,12500],
-						["arifle_MXM_Black_F",nil,15000],
-						// Attachments
-						["optic_Aco",nil,1000],
-						["optic_Holosight",nil,1000],
-						["optic_MRCO",nil,1000],
-						// Silencer / Laser / Flashlight
-						["acc_flashlight",nil,1000],
-						["acc_pointer_IR",nil,1000],
-						["muzzle_snds_H",nil,1000],
-						// Ammunition
-						["30Rnd_65x39_caseless_mag_Tracer","Rubber Bullets",20],
-						["30Rnd_65x39_caseless_mag",nil,30]
-					]
-				];
-			};
-		};
-	};
 	
 	case "gun":
 	{
