@@ -86,6 +86,7 @@ switch(_shop) do
 						["optic_Holosight",nil,200],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
 						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
@@ -124,6 +125,7 @@ switch(_shop) do
 						["20Rnd_762x51_Mag",nil,40],
 						["30Rnd_45ACP_Mag_SMG_01",nil,30],
 						["9Rnd_45ACP_Mag",nil,30]
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
 					]
 				];
 			};
@@ -155,8 +157,7 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
-						["30Rnd_65x39_caseless_green",nil,275],
-						["tf_pnr1000a",nil,300]
+						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
 			};
@@ -181,12 +182,15 @@ switch(_shop) do
 						["optic_Aco",nil,1000],
 						["optic_Holosight",nil,1000],
 						["optic_MRCO",nil,1000],
+						["optic_NVS",nil,1000],
+						["optic_Nightstalker",nil,1000],
 						// Silencer / Laser / Flashlight
 						["acc_flashlight",nil,1000],
 						["acc_pointer_IR",nil,1000],
 						["muzzle_snds_H",nil,1000],
 						// Ammunition
 						["30Rnd_65x39_caseless_mag",nil,500]
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",750],
 					]
 				];
 			};
