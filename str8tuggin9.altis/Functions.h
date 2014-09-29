@@ -117,6 +117,7 @@ class Life_Client_Core
 		class gather {};
 		class takeOrgans {};
 		class robShops {};
+		class surrender {};
 	};
 	
 	class Housing
