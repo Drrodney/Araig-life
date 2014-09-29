@@ -148,6 +148,7 @@ switch(_shop) do
 						["arifle_Mk20C_plain_F",nil,2500],
 						["arifle_Katiba_C_F",nil,30000],
 						["srifle_DMR_01_F",nil,50000],
+						["arifle_SDAR_F","Turtle Gun",10000],
 						["hgun_PDW2000_F",nil,20000],
 						["optic_ACO_grn",nil,3500],
 						["optic_Holosight",nil,3600],
