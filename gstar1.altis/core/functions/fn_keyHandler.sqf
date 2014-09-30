@@ -359,8 +359,8 @@ switch (_code) do
 			};
 		};
 	};
-	//surrender... Shift + Z
-	case 21:
+	//surrender... Shift + V
+	case 47:
 	{
 		if(_shift) then {_handled = true;};
 
