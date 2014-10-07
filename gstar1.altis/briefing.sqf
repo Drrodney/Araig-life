@@ -562,7 +562,7 @@ player createDiarySubject ["special","Special Licenses"];
 				Cruise control - Scroll wheel
 				Left Shift + H: Holsters your pistol<br/>
 				Ctrl + H: Unholsters your pistol<br/>
-				Left Shift + Z: Surrender<br/>
+				Left Shift + V: Surrender<br/>
 				Left Shift + O: Restrain (Civ only)<br/><br/>
 				"
 		]

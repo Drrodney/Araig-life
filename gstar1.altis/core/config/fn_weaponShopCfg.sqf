@@ -118,6 +118,7 @@ switch(_shop) do
 						["arifle_MX_F",nil,2000],
 						["optic_Arco",nil,450],
 						["optic_MRCO",nil,500],
+						["muzzle_snds_B","nil",500],
 						["optic_LRPS",nil,700],
 						["muzzle_snds_H",nil,750],
 						["30Rnd_65x39_caseless_mag",nil,35],

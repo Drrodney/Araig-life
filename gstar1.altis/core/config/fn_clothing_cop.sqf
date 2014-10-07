@@ -31,7 +31,7 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["U_NikosAgedBody",nil,500]];
 		};
-		if(!license_cop_swat) then
+		if(license_cop_swat) then
 		{
 			_ret set[count _ret,["U_B_CombatUniform_mcam",nil,1000]];
 		};
@@ -78,7 +78,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["V_TacVest_blk_POLICE",nil,1500]];
-			_ret set[count _ret, ["V_PlateCarrier1_blk",nil,1000]];
+			_ret set[count _ret,["V_PlateCarrier1_blk",nil,1000]];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
