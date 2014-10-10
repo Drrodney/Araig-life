@@ -21,15 +21,15 @@ switch (_filter) do
 	{
 		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
 		
-		if(__GETC__(life_coplevel) > 4) then
+		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret set[count _ret,["U_BG_Guerilla2_1","Detective",25]];
 		};
-		if(__GETC__(life_coplevel) > 6) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["U_NikosAgedBody","Police Brass",25]];
 		};
-		if(__GETC__(life_coplevel) > 7) then
+		if(__GETC__(life_coplevel) > 6) then
 		{
 			_ret set[count _ret,["U_BG_Guerilla2_3","F.B.I.",25]];
 			_ret set[count _ret,["U_I_G_Story_Protagonist_F","F.B.I. Tac Uniform",25]];

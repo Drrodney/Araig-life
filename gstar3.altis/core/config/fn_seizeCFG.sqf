@@ -71,8 +71,7 @@ switch(_mode) do
 			"SMG_01_F",
 			"SMG_02_F",
 			"srifle_DMR_01_F",
-			"srifle_EBR_ARCO_pointer_F"
-						
+			"srifle_EBR_ARCO_pointer_F",					
 			
 			// Mags
 			"30Rnd_556x45_Stanag",

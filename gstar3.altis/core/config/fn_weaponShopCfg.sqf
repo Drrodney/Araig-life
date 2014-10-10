@@ -64,6 +64,7 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
+						["11Rnd_45ACP_Mag",nil,25],
 						["NVGoggles",nil,1200],
 						["B_FieldPack_ocamo",nil,3000]
 					]
@@ -304,14 +305,11 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_mag",nil,35],
 						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["30Rnd_9x21_Mag",nil,30],
-						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
 						["30Rnd_45ACP_Mag_SMG_01",nil,30],
 						["11Rnd_45ACP_Mag",nil,25],
-						["9Rnd_45ACP_Mag",nil,30],
 						["ItemGPS,nil,30],
 						["FirstAidKit,nil,25]
-						["Laserdesignator,nil,100]
 					]
 				];
 			};

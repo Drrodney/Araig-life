@@ -20,11 +20,11 @@ if (_rip) exitWith { hint "Robbery already in progress!" };
 if (vehicle player != _robber) exitWith { hint "Get out of your vehicle!" };
 
 if !(alive _robber) exitWith {};
-if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! Get out of here you hobo!" };
+if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! Get out of here you scumbag!" };
 if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
 
 _rip = true;
-_kassa = 10000 + round(random 10000);
+_kassa = 400000 + round(random 400000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
@@ -37,7 +37,7 @@ disableSerialization;
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Robbery in Progress, stay close (10m) (1%1)...","%"];
+_pgText ctrlSetText format["Robbery in Progress, stay close (5m) (1%1)...","%"];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
  
@@ -48,18 +48,18 @@ while{true} do
 sleep 0.85;
 _cP = _cP + 0.01;
 _progress progressSetPosition _cP;
-_pgText ctrlSetText format["Robbery in Progress, stay close (10m) (%1%2)...",round(_cP * 100),"%"];
+_pgText ctrlSetText format["Robbery in Progress, stay close (5m) (%1%2)...",round(_cP * 100),"%"];
 _Pos = position player; // by ehno: get player pos
 				                _marker = createMarker ["Marker200", _Pos]; //by ehno: Place a Maker on the map
 				                "Marker200" setMarkerColor "ColorRed";
 				                "Marker200" setMarkerText "!ATTENTION! Robbery !ATTENTION!";
 				                "Marker200" setMarkerType "mil_warning";			
 if(_cP >= 1) exitWith {};
-if(_robber distance _shop > 10.5) exitWith { };
+if(_robber distance _shop > 5) exitWith { };
 if!(alive _robber) exitWith {};
 };
 if!(alive _robber) exitWith { _rip = false; };
-if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "You need to stay within 10m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
+if(_robber distance _shop > 5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "You need to stay within 5m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
 5 cutText ["","PLAIN"];
 
 titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
