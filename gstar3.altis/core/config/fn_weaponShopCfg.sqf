@@ -287,29 +287,23 @@ switch(_shop) do
 						["arifle_MX_Black_F",nil,2000],
 						["arifle_MXM_Black_F",nil,2000],
 						["hgun_Rook40_snds_F",nil,500],
-						["hgun_Pistol_heavy_01_snds_F",nil,500],
-						["optic_Hamr",nil,450],
 						["optic_MRCO",nil,500],
 						["optic_MRD",nil,500],
 						["optic_LRPS",nil,500],
 						["optic_DMS",nil,500],
 						["optic_Nightstalker,nil,500],
-						["optic_Aco",nil,500],
-						["optic_Aco_smg,nil,500],
 						["muzzle_snds_B",nil,500],
 						["muzzle_snds_H",nil,500],
 						["acc_flashlight",nil,200],
 						["acc_pointer_IR",nil,200],
 						["HandGrenade_Stone","Flashbang",100],
-						["SmokeShellBlue",nil,100],
+						["SmokeShell",nil,100],
 						["30Rnd_65x39_caseless_mag",nil,35],
 						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["30Rnd_9x21_Mag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
-						["30Rnd_45ACP_Mag_SMG_01",nil,30],
-						["11Rnd_45ACP_Mag",nil,25],
-						["ItemGPS,nil,30],
-						["FirstAidKit,nil,25]
+						["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_45ACP_Mag_SMG_01",nil,30]
 					]
 				];
 			};
