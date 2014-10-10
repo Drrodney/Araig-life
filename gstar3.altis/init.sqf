@@ -14,7 +14,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "KRON_Strings.sqf";
 [] execVM "scripts\fn_statusBar.sqf";
 [] execVM "core\fn_antiCheat.sqf";
-[] execVM "scripts\mod_cruiseControl.sqf";
 [] execVM "scripts\noGlobal.sqf";
 [] execVM "scripts\nosidechat.sqf";
 [] execVM "scripts\messages.sqf";
