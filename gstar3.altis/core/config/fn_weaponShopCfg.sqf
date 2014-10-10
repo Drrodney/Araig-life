@@ -1,19 +1,4 @@
 #include <macro.h>
-/*
-	File: fn_weaponShopCfg.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Master configuration file for the weapon shops.
-	
-	Return:
-	String: Close the menu
-	Array: 
-	[Shop Name,
-	[ //Array of items to add to the store
-		[classname,Custom Name (set nil for default),price]
-	]]
-*/
 private["_shop"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
@@ -291,7 +276,7 @@ switch(_shop) do
 						["optic_MRD",nil,500],
 						["optic_LRPS",nil,500],
 						["optic_DMS",nil,500],
-						["optic_Nightstalker,nil,500],
+						["optic_Nightstalker",nil,500],
 						["muzzle_snds_B",nil,500],
 						["muzzle_snds_H",nil,500],
 						["acc_flashlight",nil,200],
