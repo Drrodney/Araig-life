@@ -49,6 +49,7 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
+						["hgun_Pistol_heavy_01_MRD_F",nil,500],
 						["11Rnd_45ACP_Mag",nil,25],
 						["NVGoggles",nil,1200],
 						["B_FieldPack_ocamo",nil,3000]
@@ -272,6 +273,8 @@ switch(_shop) do
 						["arifle_MX_Black_F",nil,2000],
 						["arifle_MXM_Black_F",nil,2000],
 						["hgun_Rook40_snds_F",nil,500],
+						["hgun_Pistol_heavy_01_snds_F",nil,500],
+						["optic_Hamr",nil,450],
 						["optic_MRCO",nil,500],
 						["optic_MRD",nil,500],
 						["optic_LRPS",nil,500],
@@ -288,7 +291,12 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
 						["16Rnd_9x21_Mag",nil,50],
-						["30Rnd_45ACP_Mag_SMG_01",nil,30]
+						["30Rnd_45ACP_Mag_SMG_01",nil,30]'
+						["11Rnd_45ACP_Mag",nil,25],
+						["9Rnd_45ACP_Mag",nil,30],
+						["ItemGPS",nil,30],
+						["FirstAidKit",nil,25],
+						["Laserdesignator",nil,100]
 					]
 				];
 			};
