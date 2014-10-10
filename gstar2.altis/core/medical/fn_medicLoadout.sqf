@@ -9,7 +9,14 @@ private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
+player addWeapon "hgun_Pistol_heavy_01_MRD_F";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+
 player addUniform "U_Rangemaster";
+player addVest "V_PlateCarrierH_CTRG";
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 player addItem "ItemMap";

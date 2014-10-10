@@ -21,19 +21,22 @@ switch (_filter) do
 	{
 		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
 		
-		if(__GETC__(life_coplevel) > 5) then
+		if(__GETC__(life_coplevel) > 4) then
 		{
-			_ret set[count _ret,["U_BG_Guerilla2_1",nil,500]];
-			_ret set[count _ret,["U_BG_Guerilla2_3",nil,500]];
-			_ret set[count _ret,["U_I_G_Story_Protagonist_F",nil,500]];
+			_ret set[count _ret,["U_BG_Guerilla2_1","Detective",25]];
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret set[count _ret,["U_NikosAgedBody",nil,500]];
+			_ret set[count _ret,["U_NikosAgedBody","Police Brass",25]];
+		};
+		if(__GETC__(life_coplevel) > 7) then
+		{
+			_ret set[count _ret,["U_BG_Guerilla2_3","F.B.I.",25]];
+			_ret set[count _ret,["U_I_G_Story_Protagonist_F","F.B.I. Tac Uniform",25]];
 		};
 		if(license_cop_swat) then
 		{
-			_ret set[count _ret,["U_B_CombatUniform_mcam",nil,1000]];
+			_ret set[count _ret,["U_B_CombatUniform_mcam","S.W.A.T.",25]];
 		};
 	};
 	
@@ -84,6 +87,10 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["V_TacVestIR_blk",nil,1500]];
 			_ret set[count _ret,["V_Chestrig_blk",nil,1000]];
+		};
+		if(__GETC__(life_coplevel) > 7) then
+		{
+			_ret set[count _ret,["V_PlateCarrierGL_rgr","F.B.I. Tac Vest",1000]];
 		};
 	};
 	

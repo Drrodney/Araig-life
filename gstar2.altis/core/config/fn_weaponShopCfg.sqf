@@ -108,16 +108,12 @@ switch(_shop) do
 				["Altis Sergeant Officer Shop",
 					[
 						["SMG_02_ACO_F",nil,2000],
-						["SMG_01_ACO_F",nil,1800],
 						["arifle_TRG20_F",nil,1200],
-						["hgun_Rook40_F",nil,500],
 						["hgun_ACPC2_F",nil,500],
 						["srifle_EBR_ARCO_pointer_F",nil,1700],
 						["HandGrenade_Stone","Flashbang",700],
-						["arifle_MXC_F",nil,15000],
 						["arifle_MXC_Black_F",nil,2000],
 						["arifle_MX_Black_F",nil,2000],
-						["arifle_MX_F",nil,2000],
 						["optic_Arco",nil,450],
 						["optic_MRCO",nil,500],
 						["muzzle_snds_B","nil",500],
@@ -128,7 +124,6 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,30],
 						["30Rnd_556x45_Stanag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
-						["30Rnd_45ACP_Mag_SMG_01",nil,30],
 						["9Rnd_45ACP_Mag",nil,30]
 					]
 				];
@@ -274,4 +269,52 @@ switch(_shop) do
 			]
 		];
 	};
+	
+	case "fbi":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 7): {"You are not F.B.I., Jerkoff."};
+			default
+			{
+				["F.B.I. Armory",
+					[
+						["SMG_01_Holo_pointer_snds_F",nil,2000],
+						["srifle_EBR_ARCO_pointer_F",nil,2000],
+						["arifle_MXC_Black_F",nil,2000],
+						["arifle_MX_Black_F",nil,2000],
+						["arifle_MXM_Black_F",nil,2000],
+						["hgun_Rook40_snds_F",nil,500],
+						["hgun_Pistol_heavy_01_snds_F",nil,500],
+						["optic_Hamr",nil,450],
+						["optic_MRCO",nil,500],
+						["optic_MRD",nil,500],
+						["optic_LRPS",nil,500],
+						["optic_DMS",nil,500],
+						["optic_Nightstalker,nil,500],
+						["optic_Aco",nil,500],
+						["optic_Aco_smg,nil,500],
+						["muzzle_snds_B",nil,500],
+						["muzzle_snds_H",nil,500],
+						["acc_flashlight",nil,200],
+						["acc_pointer_IR",nil,200],
+						["HandGrenade_Stone","Flashbang",100],
+						["SmokeShellBlue",nil,100],
+						["30Rnd_65x39_caseless_mag",nil,35],
+						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
+						["30Rnd_9x21_Mag",nil,30],
+						["30Rnd_556x45_Stanag",nil,30],
+						["20Rnd_762x51_Mag",nil,40],
+						["30Rnd_45ACP_Mag_SMG_01",nil,30],
+						["11Rnd_45ACP_Mag",nil,25],
+						["9Rnd_45ACP_Mag",nil,30],
+						["ItemGPS,nil,30],
+						["FirstAidKit,nil,25]
+						["Laserdesignator,nil,100]
+					]
+				];
+			};
+		};
+	};	
 };
