@@ -9590,7 +9590,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=280;
+		items=263;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11390,419 +11390,283 @@ class Mission
 		};
 		class Item228
 		{
-			position[]={2182.8242,-185.97,27673.695};
-			name="ts1";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item229
-		{
-			position[]={2026.8008,0.0508269,25218.498};
-			name="ts1_1";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item230
-		{
-			position[]={745.46973,0.1791423,16449.645};
-			name="ts1_2";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item231
-		{
-			position[]={10890.245,-0.3232303,28133.66};
-			name="ts1_3";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item232
-		{
-			position[]={11409.164,0.29988599,26923.902};
-			name="ts1_4";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item233
-		{
-			position[]={18743.188,-0.3333542,26612.822};
-			name="ts1_5";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item234
-		{
-			position[]={20265.348,0.13314265,28202.791};
-			name="ts1_6";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item235
-		{
-			position[]={18042.729,0.012768671,20691.76};
-			name="ts1_7";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item236
-		{
-			position[]={18126.086,-0.24008772,19796.445};
-			name="ts1_8";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item237
-		{
-			position[]={12207.725,-0.22233954,23440.17};
-			name="ts1_9";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item238
-		{
-			position[]={16021.318,0.10928365,22888.402};
-			name="ts1_10";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item239
-		{
-			position[]={17407.131,-0.043703623,21066.543};
-			name="ts1_11";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item240
-		{
-			position[]={21574.992,0.1891958,22024.32};
-			name="ts1_12";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item241
-		{
-			position[]={19407.705,0.026684016,22076.375};
-			name="ts1_13";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item242
-		{
-			position[]={27274.875,-0.071527377,19077.502};
-			name="ts1_14";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item243
-		{
-			position[]={25690.793,-0.13411057,17730.063};
-			name="ts1_15";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item244
-		{
-			position[]={25519.543,-0.0054726601,15826.534};
-			name="ts1_16";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item245
-		{
-			position[]={23561.648,-0.17420928,15131.351};
-			name="ts1_17";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item246
-		{
-			position[]={22509.262,0.15898186,12872.244};
-			name="ts1_18";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item247
-		{
-			position[]={22050.799,0.008878991,12247.605};
-			name="ts1_19";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item248
-		{
-			position[]={22207.094,0.30800584,10300.815};
-			name="ts1_20";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item249
-		{
-			position[]={22601.543,-0.093020968,9168.7813};
-			name="ts1_21";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item250
-		{
-			position[]={23982.336,-0.14505301,6291.8149};
-			name="ts1_22";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item251
-		{
-			position[]={23106.713,-0.049538676,5972.1533};
-			name="ts1_23";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item252
-		{
-			position[]={21254.428,0.30108911,4087.8223};
-			name="ts1_24";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item253
-		{
-			position[]={26760.762,0.093811892,3196.1313};
-			name="ts1_25";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item254
-		{
-			position[]={28309.941,-0.00041048229,6005.8022};
-			name="ts1_26";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item255
-		{
-			position[]={27973.164,0.017162099,10817.566};
-			name="ts1_27";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item256
-		{
-			position[]={28107.875,-0.34893098,13055.207};
-			name="ts1_28";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item257
-		{
-			position[]={18139.227,0.056380555,3902.7598};
-			name="ts1_29";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item258
-		{
-			position[]={19048.527,0.33793244,1883.8351};
-			name="ts1_30";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item259
-		{
-			position[]={24470.668,-0.04397665,1446.4034};
-			name="ts1_31";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item260
-		{
-			position[]={17465.668,-0.015671104,1984.7793};
-			name="ts1_32";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item261
-		{
-			position[]={14299.948,0.11625011,3229.783};
-			name="ts1_33";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item262
-		{
-			position[]={12262.437,-0.27414048,2085.7271};
-			name="ts1_34";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item263
-		{
-			position[]={14215.753,-0.12095479,1328.6318};
-			name="ts1_35";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item264
-		{
-			position[]={12110.886,-0.24857929,4138.2993};
-			name="ts1_36";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item265
-		{
-			position[]={10595.382,0.0015479177,2725.0527};
-			name="ts1_37";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item266
-		{
-			position[]={8052.7026,-0.33185136,1766.0616};
-			name="ts1_38";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item267
-		{
-			position[]={7429.6616,0.031898446,4474.7866};
-			name="ts1_39";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item268
-		{
-			position[]={6857.1382,0.089113303,6443.2363};
-			name="ts1_40";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item269
-		{
-			position[]={7008.6904,-0.34213477,8310.7422};
-			name="ts1_41";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item270
-		{
-			position[]={5190.0859,0.072108209,8243.4434};
-			name="ts1_42";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item271
-		{
-			position[]={1081.3848,-0.25577784,10582.03};
-			name="ts1_43";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item272
-		{
 			position[]={3027.5146,-0.19333911,12758.378};
 			name="ts1_44";
 			text="108.61.25.67:10287";
 			type="mil_ambush";
 			colorName="ColorGreen";
 		};
-		class Item273
-		{
-			position[]={1056.0906,0.11137315,12562.413};
-			name="ts1_45";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item274
-		{
-			position[]={1702.0269,-0.29346579,15579.493};
-			name="ts1_46";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item275
-		{
-			position[]={1948.8434,-0.019760475,5943.0273};
-			name="ts1_47";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item276
-		{
-			position[]={2879.1504,0.25117332,3571.8521};
-			name="ts1_48";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item277
-		{
-			position[]={15011.114,0.1895145,8181.4209};
-			name="ts1_49";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item278
-		{
-			position[]={13113.646,0.083719149,10868.403};
-			name="ts1_50";
-			text="108.61.25.67:10287";
-			type="mil_ambush";
-			colorName="ColorGreen";
-		};
-		class Item279
+		class Item229
 		{
 			position[]={3547.1025,0.33342162,13680.85};
 			name="altaisia";
 			text="Altaisia Nightclub";
 			type="mil_flag";
 			colorName="ColorWhite";
+		};
+		class Item230
+		{
+			position[]={1629.5194,-185.97,5600.1909};
+			name="neva";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item231
+		{
+			position[]={1660.032,-0.28704399,4410.2344};
+			name="neva_1";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item232
+		{
+			position[]={1537.9846,0.30334735,2915.1653};
+			name="neva_2";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item233
+		{
+			position[]={1751.5668,0.29397726,1511.6307};
+			name="neva_3";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item234
+		{
+			position[]={13284.959,0.22914506,5661.2124};
+			name="neva_4";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item235
+		{
+			position[]={13376.492,-0.13908593,4562.7959};
+			name="neva_5";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item236
+		{
+			position[]={13254.448,0.19222175,3098.2358};
+			name="neva_6";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item237
+		{
+			position[]={13345.981,0.21542835,1633.676};
+			name="neva_7";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item238
+		{
+			position[]={23231.746,-0.00092212856,12892.468};
+			name="neva_8";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item239
+		{
+			position[]={23323.283,-0.040029977,11366.891};
+			name="neva_9";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item240
+		{
+			position[]={23201.234,0.24272859,9871.8174};
+			name="neva_10";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item241
+		{
+			position[]={24818.35,-0.2111063,8285.2139};
+			name="neva_11";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item242
+		{
+			position[]={24818.35,0.11788708,7003.7266};
+			name="neva_12";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item243
+		{
+			position[]={23689.422,-0.12910132,5661.2158};
+			name="neva_13";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item244
+		{
+			position[]={23719.932,0.14670494,4471.2607};
+			name="neva_14";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item245
+		{
+			position[]={23597.889,0.11582902,3189.7734};
+			name="neva_15";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item246
+		{
+			position[]={23506.35,-0.038048521,2030.3278};
+			name="neva_16";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item247
+		{
+			position[]={805.70508,-0.232319,30253.586};
+			name="neva_17";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item248
+		{
+			position[]={10630.449,-0.13174419,30253.586};
+			name="neva_18";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item249
+		{
+			position[]={20485.699,-0.144647,30314.611};
+			name="neva_19";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item250
+		{
+			position[]={683.65625,0.17948028,28972.1};
+			name="neva_20";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item251
+		{
+			position[]={10630.447,-0.11072572,28911.074};
+			name="neva_21";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item252
+		{
+			position[]={20394.164,0.023610055,29002.609};
+			name="neva_22";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item253
+		{
+			position[]={714.16797,0.14841537,27751.633};
+			name="neva_23";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item254
+		{
+			position[]={10721.979,-0.12310614,27568.564};
+			name="neva_24";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item255
+		{
+			position[]={20455.188,-0.032451332,27660.098};
+			name="neva_25";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item256
+		{
+			position[]={653.14453,-0.154984,26470.145};
+			name="neva_26";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item257
+		{
+			position[]={10599.934,-0.089275032,26378.609};
+			name="neva_27";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item258
+		{
+			position[]={20546.723,0.32833499,26500.656};
+			name="neva_28";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item259
+		{
+			position[]={650.19336,-0.056160666,13426.021};
+			name="neva_29";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item260
+		{
+			position[]={830.89063,0.00014282763,12461.532};
+			name="neva_30";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item261
+		{
+			position[]={1336.9916,0.20219427,14216.45};
+			name="neva_31";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
+		};
+		class Item262
+		{
+			position[]={1108.8577,0.088173002,11970.896};
+			name="neva_32";
+			text="Join us on TS3 At: 192.99.35.112:9988";
+			type="mil_ambush";
+			colorName="ColorGreen";
 		};
 	};
 };
