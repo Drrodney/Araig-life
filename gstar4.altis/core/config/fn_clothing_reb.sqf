@@ -63,6 +63,7 @@ switch (_filter) do
 			["G_Sport_BlackWhite",nil,20],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
+			["G_Balaclava_blk",nil,500],
 			["G_Combat",nil,55]
 		];
 	};

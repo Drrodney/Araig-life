@@ -6,9 +6,11 @@
 	Description:
 	Adds the tags above other players heads when close and have visible range.
 */
-private["_ui","_units"];
+private["_ui","_units","_goggles"];
 #define iconID 78000
 #define scale 0.8
+_headgear = ["H_Shemag_olive","H_Shemag_khk"];
+_glasses = ["G_Balaclava_blk"];
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {
 	500 cutText["","PLAIN"];
@@ -37,6 +39,8 @@ _units = _units - [player];
 		_distance = _pos distance player;
 		if(count _sPos > 1 && {_distance < 15}) then {
 			_text = switch (true) do {
+				case ((headgear _x) in _headgear): {format["<t color='#000000'>Masked Player</t>"];};
+				case ((glasses _x) in _glasses): {format["<t color='#000000'>Masked Player</t>"];};
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
 				case (!isNil {(_x getVariable "rank")}): {format["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
 					case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"}; 
@@ -44,7 +48,7 @@ _units = _units - [player];
 					case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
 					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
 					case 6: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
-					case 7: {"a3\ui_f\data\gui\cfg\Ranks\colonel_gs"};
+					case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
 					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
 					default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
 					},_x getVariable ["realname",name _x]]};
