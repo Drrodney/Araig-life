@@ -391,6 +391,8 @@ class Life_Client_Core
 		class storageBox {};
 		class CarAlarmSound {};
 		class weed {};
+		class cocaine {};
+		class heroin {};
 	};
 	
 	class Dialog_Controls
