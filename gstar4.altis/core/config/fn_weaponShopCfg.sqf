@@ -291,7 +291,7 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,30],
 						["20Rnd_762x51_Mag",nil,40],
 						["16Rnd_9x21_Mag",nil,50],
-						["30Rnd_45ACP_Mag_SMG_01",nil,30]'
+						["30Rnd_45ACP_Mag_SMG_01",nil,30],
 						["11Rnd_45ACP_Mag",nil,25],
 						["9Rnd_45ACP_Mag",nil,30],
 						["ItemGPS",nil,30],
