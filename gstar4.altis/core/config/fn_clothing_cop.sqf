@@ -48,6 +48,7 @@ switch (_filter) do
 			_ret set[count _ret,["H_HelmetB_plain_mcamo",nil,75]];
 			_ret set[count _ret,["H_Cap_blk",nil,120]];
 			_ret set[count _ret,["H_HelmetB",nil,200]];
+			_ret set[count _ret,["H_CrewHelmetHeli_B",nil,500]];
 		};
 		
 		if(__GETC__(life_coplevel) > 2) then

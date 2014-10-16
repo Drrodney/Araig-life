@@ -26,3 +26,4 @@
 #include "federalReserve.h"
 #include "market.hpp"
 #include "compensate.hpp"
+#include "wantedadd2.hpp"

@@ -24,7 +24,7 @@ if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! 
 if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
 
 _rip = true;
-_kassa = 400000 + round(random 400000);
+_kassa = 10000 + round(random 10000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);

@@ -9,7 +9,7 @@
 private["_ui","_units","_goggles"];
 #define iconID 78000
 #define scale 0.8
-_headgear = ["H_Shemag_olive","H_Shemag_khk"];
+_headgear = ["H_Shemag_olive","H_ShemagOpen_tan","H_ShemagOpen_khk"];
 _goggles = ["G_Balaclava_blk"];
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {

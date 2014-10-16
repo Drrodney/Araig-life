@@ -3511,7 +3511,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Organ_dealer_1";
-					init="this addAction[""Organ Dealer"",life_fnc_virt_menu,""organ"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this allowDamage false; this enableSimulation false;";
+					init="this addAction["Organ Dealer",life_fnc_virt_menu,"organ",0,false,false,"",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this allowDamage false; this enableSimulation false;";
 				};
 			};
 		};
@@ -3531,7 +3531,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Organ_dealer_1_1";
-					init="this addAction[""Organ Dealer"",life_fnc_virt_menu,""organ"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this allowDamage false; this enableSimulation false;";
+					init="this addAction["Organ Dealer",life_fnc_virt_menu,"organ",0,false,false,"",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this allowDamage false; this enableSimulation false;";
 				};
 			};
 		};

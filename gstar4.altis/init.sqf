@@ -17,6 +17,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "scripts\noGlobal.sqf";
 [] execVM "scripts\nosidechat.sqf";
 [] execVM "scripts\messages.sqf";
+[] execVM "teargas.sqf";
 
 StartProgress = true;
 

@@ -26,7 +26,7 @@ switch(_shop) do
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
-						["SmokeShell",nil,1700],
+						["SmokeShellGreen",nil,1700],
 						["tf_rf7800str",nil,1],
 						["tf_anprc152",nil,1],
 						["Chemlight_Blue",nil,50]
@@ -74,6 +74,7 @@ switch(_shop) do
 						["MineDetector",nil,1000],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,200],
+						["SmokeShellGreen",nil,1700],
 						["optic_Arco",nil,500],
 						["muzzle_snds_H",nil,750],
 						["30Rnd_9x21_Mag",nil,250],
@@ -106,6 +107,7 @@ switch(_shop) do
 						["muzzle_snds_B","nil",500],
 						["optic_LRPS",nil,700],
 						["muzzle_snds_H",nil,750],
+						["SmokeShellGreen",nil,1700],
 						["30Rnd_65x39_caseless_mag",nil,35],
 						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["30Rnd_9x21_Mag",nil,30],
@@ -129,6 +131,7 @@ switch(_shop) do
 				["Mohammed's Jihadi Shop",
 					[
 						["arifle_TRG20_F",nil,25000],
+						["srifle_EBR_ARCO_pointer_F",nil,60000],
 						["arifle_Mk20C_F",nil,2500],
 						["arifle_Mk20C_plain_F",nil,2500],
 						["arifle_Katiba_C_F",nil,30000],
@@ -144,6 +147,7 @@ switch(_shop) do
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["30Rnd_65x39_caseless_green",nil,150],
+						["20Rnd_762x51_Mag",nil,200],
 						["10Rnd_762x51_Mag",nil,500]
 					]
 				];
@@ -285,7 +289,7 @@ switch(_shop) do
 						["acc_flashlight",nil,200],
 						["acc_pointer_IR",nil,200],
 						["HandGrenade_Stone","Flashbang",100],
-						["SmokeShell",nil,100],
+						["SmokeShellGreen",nil,100],
 						["30Rnd_65x39_caseless_mag",nil,35],
 						["30Rnd_65x39_caseless_mag_Tracer","Rubber bullets",30],
 						["30Rnd_9x21_Mag",nil,30],
