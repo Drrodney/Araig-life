@@ -273,7 +273,7 @@ sell_array =
 	["hops",1800], 
 	["yeast",2000], 
 	["cornmeal",200], 
-	["bottles",75], 
+	["bottles",75]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -313,7 +313,7 @@ buy_array =
 	["beerp",5000], 
 	["cornmeal",500], 
 	["mash",2500], 
-	["bottles",100],
+	["bottles",100]
 ];
 __CONST__(buy_array,buy_array);
 
